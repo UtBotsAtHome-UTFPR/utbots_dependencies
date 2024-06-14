@@ -1,0 +1,12 @@
+#goal definition
+
+---
+
+#result definition
+std_msgs/Bool success
+vision_msgs/ObjectArray people
+sensor_msgs/Image image
+
+---
+
+#feedback

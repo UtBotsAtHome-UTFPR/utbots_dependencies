@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(utbots_dependencies)
+project(utbots_actions)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -13,6 +13,8 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   vision_msgs
+  sensor_msgs
+  actionlib_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -63,17 +65,20 @@ find_package(catkin REQUIRED COMPONENTS
 # )
 
 ## Generate actions in the 'action' folder
-# add_action_files(
-#   FILES
-#   Action1.action
-#   Action2.action
-# )
+add_action_files(
+  DIRECTORY action/vision_action
+
+  FILES
+  recognition.action
+  new_face.action
+  train.action
+)
 
 ## Generate added messages and services with any dependencies listed here
-# generate_messages(
-#   DEPENDENCIES
-#   nav_msgs#   std_msgs#   vision_msgs
-# )
+generate_messages(
+  DEPENDENCIES
+  sensor_msgs nav_msgs std_msgs vision_msgs actionlib_msgs
+)
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -105,10 +110,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-#  INCLUDE_DIRS include
-#  LIBRARIES utbots_dependencies
-#  CATKIN_DEPENDS nav_msgs roscpp rospy std_msgs vision_msgs
-#  DEPENDS system_lib
+  CATKIN_DEPENDS actionlib_msgs
 )
 
 ###########
@@ -124,7 +126,7 @@ include_directories(
 
 ## Declare a C++ library
 # add_library(${PROJECT_NAME}
-#   src/${PROJECT_NAME}/utbots_dependencies.cpp
+#   src/${PROJECT_NAME}/utbots_actions.cpp
 # )
 
 ## Add cmake target dependencies of the library
@@ -135,7 +137,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-# add_executable(${PROJECT_NAME}_node src/utbots_dependencies_node.cpp)
+# add_executable(${PROJECT_NAME}_node src/utbots_actions_node.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -199,7 +201,7 @@ include_directories(
 #############
 
 ## Add gtest based cpp test target and link libraries
-# catkin_add_gtest(${PROJECT_NAME}-test test/test_utbots_dependencies.cpp)
+# catkin_add_gtest(${PROJECT_NAME}-test test/test_utbots_actions.cpp)
 # if(TARGET ${PROJECT_NAME}-test)
 #   target_link_libraries(${PROJECT_NAME}-test ${PROJECT_NAME})
 # endif()

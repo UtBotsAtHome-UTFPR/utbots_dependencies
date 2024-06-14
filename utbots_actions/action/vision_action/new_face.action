@@ -1,0 +1,13 @@
+#goal definition
+std_msgs/Int32 n_pictures
+
+---
+
+#result definition
+std_msgs/Bool success
+
+---
+
+#feedback
+std_msgs/Int32 pics_taken
+sensor_msgs/Image image
