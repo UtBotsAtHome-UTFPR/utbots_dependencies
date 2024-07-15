@@ -15,6 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
   vision_msgs
   sensor_msgs
   actionlib_msgs
+  generic_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -77,7 +78,7 @@ add_action_files(
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
   DEPENDENCIES
-  sensor_msgs nav_msgs std_msgs vision_msgs actionlib_msgs
+  generic_msgs sensor_msgs nav_msgs std_msgs vision_msgs actionlib_msgs
 )
 
 ################################################
