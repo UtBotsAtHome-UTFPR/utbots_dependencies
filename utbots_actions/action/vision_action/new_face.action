@@ -11,4 +11,4 @@ std_msgs/Bool success
 
 #feedback
 std_msgs/Int32 pics_taken
-sensor_msgs/Image image
+sensor_msgs/Image image 
