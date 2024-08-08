@@ -1,6 +1,8 @@
 # Define the goal
 ---
 # Define the result
+std_msgs/String NLUInput
+std_msgs/String NLUOutput
 std_msgs/String Task
 std_msgs/String Data
 ---
