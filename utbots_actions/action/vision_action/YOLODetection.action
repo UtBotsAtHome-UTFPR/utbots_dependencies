@@ -1,0 +1,10 @@
+# Define the goal
+std_msgs/String TargetCategory
+sensor_msgs/Image Image
+---
+# Define the result
+sensor_msgs/Image LabeledImage
+vision_msgs/BoundingBoxes DetectedObjs
+std_msgs/Bool Success
+---
+# Define a feedback message

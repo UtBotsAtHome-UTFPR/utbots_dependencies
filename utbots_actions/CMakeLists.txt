@@ -31,7 +31,7 @@ add_action_files(
   recognition.action
   new_face.action
   train.action
-  
+  YOLODetection.action
 )
 add_action_files(
   DIRECTORY action/voice_action
