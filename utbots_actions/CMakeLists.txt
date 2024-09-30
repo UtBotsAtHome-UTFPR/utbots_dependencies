@@ -32,6 +32,7 @@ add_action_files(
   new_face.action
   train.action
   YOLODetection.action
+  MPPose.action
 )
 add_action_files(
   DIRECTORY action/voice_action
