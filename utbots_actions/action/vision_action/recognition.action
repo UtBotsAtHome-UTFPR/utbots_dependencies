@@ -1,11 +1,11 @@
 #goal definition
+std_msgs/Int32 ExpectedFaces
+std_msgs/String Model
 
 ---
 
 #result definition
-std_msgs/Bool success
-vision_msgs/ObjectArray people
-sensor_msgs/Image image
+vision_msgs/ObjectArray People
 
 ---
 

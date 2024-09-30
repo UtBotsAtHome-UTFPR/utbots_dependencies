@@ -3,10 +3,6 @@ std_msgs/Int32 n_pictures
 std_msgs/String name
 
 ---
-
-#result definition
-std_msgs/Bool success
-
 ---
 
 #feedback
