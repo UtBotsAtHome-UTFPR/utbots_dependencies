@@ -34,6 +34,7 @@ add_action_files(
   train.action
   YOLODetection.action
   MPPose.action
+  Extract3DPoint.action
 )
 add_action_files(
   DIRECTORY action/voice_action
