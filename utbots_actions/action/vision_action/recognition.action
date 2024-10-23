@@ -5,8 +5,8 @@ std_msgs/String Model
 ---
 
 #result definition
-vision_msgs/ObjectArray People
-
+vision_msgs/BoundingBoxes People
+sensor_msgs/Image Image
 ---
 
 #feedback
