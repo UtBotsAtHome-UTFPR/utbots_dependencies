@@ -1,10 +1,12 @@
-#goal definition
+# Goal
 std_msgs/Int32 n_pictures
 std_msgs/String name
 
 ---
+# Result
+
 ---
 
-#feedback
+# Feedback
 std_msgs/Int32 pics_taken
 sensor_msgs/Image image 

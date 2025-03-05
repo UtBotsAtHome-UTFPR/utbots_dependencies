@@ -1,0 +1,12 @@
+# Goal
+std_msgs/Int32 expected_faces
+std_msgs/String model
+
+---
+
+# Result
+# utbots_msgs/BoundingBoxes people
+sensor_msgs/Image image
+---
+
+# Feedback

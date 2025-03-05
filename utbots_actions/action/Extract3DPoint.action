@@ -1,0 +1,8 @@
+# Goal
+# utbots_msgs/BoundingBox object_bbox
+---
+# Result
+geometry_msgs/PointStamped point
+std_msgs/Bool success
+---
+# Feedback

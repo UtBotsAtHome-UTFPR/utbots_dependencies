@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>utbots_actions</name>
-  <version>0.0.0</version>
-  <description>Custom actions for UTBots@Home Team packages</description>
+  <name>utbots_msgs</name>
+  <version>0.0.1</version>
+  <description>Custom messages for UTBots@Home Team packages</description>
   <maintainer email="utbots.home@gmail.com">UTBots</maintainer>
   <license>TODO: License declaration</license>
 
@@ -11,11 +11,9 @@
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
-
-  <buildtool_depend>rosidl_default_generators</buildtool_depend>
-
-  <depend>action_msgs</depend>
-  <depend>utbots_msgs</depend>
+  
+  <depend>rosidl_default_generators</depend>
+  <depend>std_msgs</depend>
 
   <member_of_group>rosidl_interface_packages</member_of_group>
 

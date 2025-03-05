@@ -1,0 +1,10 @@
+# Goal
+std_msgs/String target_category
+sensor_msgs/Image image
+---
+# Result
+sensor_msgs/Image labeled_image
+# utbots_msgs/BoundingBoxes detected_objs
+std_msgs/Bool success
+---
+# Feedback

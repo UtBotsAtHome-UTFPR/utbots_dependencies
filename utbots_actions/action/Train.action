@@ -1,10 +1,10 @@
-#goal definition
+# Goal
 ---
 
-#result definition
+# Result
 std_msgs/Bool success
 std_msgs/String model
 
 ---
 
-#feedback
+# Feedback

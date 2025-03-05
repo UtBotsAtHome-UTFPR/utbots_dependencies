@@ -1,4 +1,4 @@
-Header header
+std_msgs/Header header
 
 # skeletal key landmarks (points) naming
 # Follows MediapipePose Landmarker Model
