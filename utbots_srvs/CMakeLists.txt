@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(utbots_msgs)
+project(utbots_srvs)
 
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
@@ -28,14 +28,7 @@ if(BUILD_TESTING)
 endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/BoundingBox.msg"
-  "msg/BoundingBoxes.msg"
-  "msg/Object.msg"
-  "msg/ObjectArray.msg"
-  "msg/PersonArray.msg"
-  "msg/PointArray.msg"
-  "msg/Skeleton2d.msg"
-  "msg/StringArray.msg"
+  "srv/Test.srv"
   DEPENDENCIES std_msgs geometry_msgs sensor_msgs 
 )
 
