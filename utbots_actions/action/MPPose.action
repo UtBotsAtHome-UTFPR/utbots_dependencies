@@ -1,7 +1,10 @@
 # Goal
+std_msgs/Bool get_torso_point
+std_msgs/Bool get_drawn
 ---
 # Result
-geometry_msgs/PointStamped point
 std_msgs/Bool success
+geometry_msgs/PointStamped point
+sensor_msgs/Image skeleton_img
 ---
 # Feedback
