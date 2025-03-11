@@ -1,5 +1,5 @@
 # Goal
-# utbots_msgs/BoundingBox object_bbox
+utbots_msgs/BoundingBox object_bbox
 ---
 # Result
 geometry_msgs/PointStamped point
