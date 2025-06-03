@@ -15,14 +15,13 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# find dependencies
+# Find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(utbots_msgs REQUIRED)
-
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/Extract3DPoint.action"
@@ -34,6 +33,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/InterpretNLU.action"
   DEPENDENCIES std_msgs geometry_msgs sensor_msgs utbots_msgs
 )
+
+ament_export_dependencies(rosidl_default_runtime)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
