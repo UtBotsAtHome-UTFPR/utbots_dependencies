@@ -1,0 +1,2 @@
+Invoking command in '/root/ros2_ws/src/utbots_dependencies/build/utbots_srvs': /usr/bin/cmake /root/ros2_ws/src/utbots_dependencies/utbots_srvs -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/utbots_dependencies/install/utbots_srvs
+Invoked command in '/root/ros2_ws/src/utbots_dependencies/build/utbots_srvs' returned '1': /usr/bin/cmake /root/ros2_ws/src/utbots_dependencies/utbots_srvs -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/src/utbots_dependencies/install/utbots_srvs

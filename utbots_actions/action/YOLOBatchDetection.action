@@ -1,0 +1,10 @@
+# Goal
+std_msgs/String target_category
+std_msgs/Int32 buffer_size
+std_msgs/Float32 iou_threshold
+std_msgs/Float32 support_threshold
+---
+# Result
+utbots_msgs/BoundingBoxes detected_objs
+---
+# Feedback
