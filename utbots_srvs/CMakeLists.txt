@@ -29,6 +29,7 @@ endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Test.srv"
+  "srv/SetString.srv"
   DEPENDENCIES std_msgs geometry_msgs sensor_msgs 
 )
 

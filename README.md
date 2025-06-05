@@ -5,6 +5,7 @@ Simple repository for custom ROS dependecies -- messages, services and actions -
 ```
 cd ~/<ros2_ws>/src
 git clone https://github.com/UtBotsAtHome-UTFPR/utbots_dependencies.git
+pip uninstall em && pip install empy==3.3.4 --force-reinstall --no-cache
 cd ..
 colcon build
 ```

@@ -31,6 +31,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/YOLODetection.action"
   "action/MPPose.action"
   "action/InterpretNLU.action"
+  "action/Transcription.action"
   DEPENDENCIES std_msgs geometry_msgs sensor_msgs utbots_msgs
 )
 
@@ -42,3 +43,4 @@ if(BUILD_TESTING)
 endif()
 
 ament_package()
+
