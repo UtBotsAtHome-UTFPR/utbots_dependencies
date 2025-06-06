@@ -1,4 +1,5 @@
 # Goal
+sensor_msgs/Image image
 ---
 # Result
 utbots_msgs/BoundingBoxes people
