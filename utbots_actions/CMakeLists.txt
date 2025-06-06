@@ -29,6 +29,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/NewFace.action"
   "action/Train.action"
   "action/YOLODetection.action"
+  "action/YOLOBatchDetection.action"
   "action/MPPose.action"
   "action/InterpretNLU.action"
   "action/Transcription.action"
