@@ -6,6 +6,9 @@ Simple repository for custom ROS dependecies -- messages, services and actions -
 cd ~/<ros2_ws>/src
 git clone https://github.com/UtBotsAtHome-UTFPR/utbots_dependencies.git
 pip uninstall em && pip install empy==3.3.4 --force-reinstall --no-cache
+pip install lark
+
+# no bashrc: source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
 cd ..
 colcon build
 ```
