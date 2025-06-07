@@ -2,7 +2,7 @@
 sensor_msgs/Image image
 ---
 # Result
-utbots_msgs/BoundingBoxes people
+utbots_msgs/BoundingBox[] people
 sensor_msgs/Image image
 ---
 # Feedback
