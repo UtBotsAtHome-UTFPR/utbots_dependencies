@@ -1,6 +1,6 @@
 # Goal
 std_msgs/String target_category
-std_msgs/Int32 buffer_size
+std_msgs/Int32 batch_size
 std_msgs/Float32 iou_threshold
 std_msgs/Float32 support_threshold
 ---
