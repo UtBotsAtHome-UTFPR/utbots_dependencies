@@ -1,0 +1,7 @@
+# Goal
+std_msgs/String waypoint         
+---
+# Result
+std_msgs/Bool result
+---
+# Feedback

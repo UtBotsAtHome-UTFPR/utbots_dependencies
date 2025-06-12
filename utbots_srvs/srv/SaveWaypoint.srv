@@ -1,4 +1,4 @@
-std_msgs/String string
+string string
 ---
-std_msgs/Bool sucess
-std_msgs/String message
+bool success
+string message

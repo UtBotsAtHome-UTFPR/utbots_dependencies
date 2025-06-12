@@ -1,3 +1,4 @@
 string data
+bool load_model
 ---
 bool success
