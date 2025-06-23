@@ -1,4 +1,5 @@
 # Goal
+std_msgs/String nlu_input
 ---
 # Result
 std_msgs/String nlu_input
