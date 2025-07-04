@@ -1,6 +1,15 @@
 cmake_minimum_required(VERSION 3.5)
 project(utbots_msgs)
 
+execute_process(
+  COMMAND ${Python3_EXECUTABLE} -m pip install empy==3.3.4 lark
+  RESULT_VARIABLE pip_result
+)
+
+if(NOT pip_result EQUAL 0)
+  message(FATAL_ERROR "Failed to install empy")
+endif()
+
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
   set(CMAKE_C_STANDARD 99)

@@ -1,6 +1,11 @@
 cmake_minimum_required(VERSION 3.5)
 project(utbots_actions)
 
+execute_process(
+  COMMAND ${Python3_EXECUTABLE} -m pip install empy==3.3.4 lark
+  RESULT_VARIABLE pip_result
+)
+
 # Default to C99
 if(NOT CMAKE_C_STANDARD)
   set(CMAKE_C_STANDARD 99)
