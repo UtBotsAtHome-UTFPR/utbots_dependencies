@@ -1,5 +1,5 @@
 # Goal
-std_msgs/String target_category
+std_msgs/String[] target_categories
 sensor_msgs/Image image
 ---
 # Result
