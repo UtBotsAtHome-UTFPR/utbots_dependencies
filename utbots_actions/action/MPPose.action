@@ -1,6 +1,7 @@
 # Goal
 std_msgs/Bool get_torso_point
 std_msgs/Bool get_drawn
+sensor_msgs/Image image
 ---
 # Result
 std_msgs/Bool success
