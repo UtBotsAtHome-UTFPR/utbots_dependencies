@@ -7,5 +7,6 @@ sensor_msgs/Image image
 std_msgs/Bool success
 geometry_msgs/PointStamped point
 sensor_msgs/Image skeleton_img
+utbots_msgs/Skeleton2d skeleton_points_normalized
 ---
 # Feedback
