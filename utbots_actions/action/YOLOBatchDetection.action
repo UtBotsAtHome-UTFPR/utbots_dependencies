@@ -6,7 +6,6 @@ std_msgs/Float32 support_threshold
 ---
 # Result
 utbots_msgs/BoundingBoxes detected_objs
-geometry_msgs/Polygon[] segm_mask
 sensor_msgs/Image annotated_image
 ---
 # Feedback
