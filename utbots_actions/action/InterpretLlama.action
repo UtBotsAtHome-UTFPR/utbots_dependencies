@@ -1,9 +1,7 @@
-# Goal: o texto a ser interpretado
+# Goal: o texto da pergunta a ser respondida
 std_msgs/String text_input
 ---
-# Result: o resultado estruturado da interpretação
-std_msgs/String task         # A tarefa identificada (ex: "say_operator_name")
-std_msgs/String data         # Os dados extraídos em formato JSON (ex: '{"name": "João"}')
-std_msgs/String response     # Uma resposta em linguagem natural para o usuário
+# Result: a resposta em linguagem natural gerada pela LLM
+std_msgs/String llm_output
 ---
 # Feedback
