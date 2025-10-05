@@ -8,6 +8,6 @@ float32 xminn
 float32 yminn
 float32 xmaxn
 float32 ymaxn
-string id
+int64 id
 string category
-
+sensor_msgs/Image mask
