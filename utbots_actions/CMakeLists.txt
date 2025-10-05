@@ -38,6 +38,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/InterpretNLU.action"
   "action/Transcription.action"
   "action/TextToSpeech.action"
+  "action/InterpretLlama.action"
   "action/NavigateToWayPoint.action"
   DEPENDENCIES std_msgs geometry_msgs sensor_msgs utbots_msgs
 )
@@ -50,4 +51,3 @@ if(BUILD_TESTING)
 endif()
 
 ament_package()
-

@@ -1,0 +1,9 @@
+# Goal: o texto a ser interpretado
+std_msgs/String text_input
+---
+# Result: o resultado estruturado da interpretação
+std_msgs/String task         # A tarefa identificada (ex: "say_operator_name")
+std_msgs/String data         # Os dados extraídos em formato JSON (ex: '{"name": "João"}')
+std_msgs/String response     # Uma resposta em linguagem natural para o usuário
+---
+# Feedback
