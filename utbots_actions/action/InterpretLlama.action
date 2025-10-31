@@ -1,0 +1,7 @@
+# Goal: o texto da pergunta a ser respondida
+std_msgs/String text_input
+---
+# Result: a resposta em linguagem natural gerada pela LLM
+std_msgs/String llm_output
+---
+# Feedback

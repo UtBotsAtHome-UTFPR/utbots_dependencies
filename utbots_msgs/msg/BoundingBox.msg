@@ -10,4 +10,4 @@ float32 xmaxn
 float32 ymaxn
 int64 id
 string category
-
+sensor_msgs/Image mask
