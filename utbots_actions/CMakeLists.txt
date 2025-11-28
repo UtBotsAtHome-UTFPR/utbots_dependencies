@@ -36,6 +36,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/YOLOBatchDetection.action"
   "action/MPPose.action"
   "action/InterpretNLU.action"
+  "action/InterpretNLUBuffer.action"
   "action/Transcription.action"
   "action/TextToSpeech.action"
   "action/InterpretLlama.action"
