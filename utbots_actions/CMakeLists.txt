@@ -41,6 +41,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "action/TextToSpeech.action"
   "action/InterpretLlama.action"
   "action/NavigateToWayPoint.action"
+  "action/RecognizePointing.action"
+  "action/TrackPerson.action"
   DEPENDENCIES std_msgs geometry_msgs sensor_msgs utbots_msgs
 )
 
